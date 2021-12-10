@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f2f5;
+}
+main{
+    width: 100%;
+    height: auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 135px;
+}
+main .main-logo-texto{
+    margin-left: 10px;
+    margin-top: 70px;
+}
+main .main-logo-texto figure img{
+    width: 359px;
+    margin: -28px;
+    height: 120px;
+    padding-bottom: 15px;
+}
+main .main-logo-texto .texto{
+    margin-left: 29px;
+}
+main .main-logo-texto h2{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 23px;
+    font-weight:normal;
+    line-height: 28px;
+    padding-right: 2px;
+    margin-left: 2px;
+    width: 350px;
+    height: auto;
+}
+main .main-container{
+    justify-self: center;
+}
+main .main-login-register{
+    border: 1px solid #dddfe2;
+    width: 400px;
+    height: 350px;
+    background: #ffffff;
+    border-radius: 10px;
+    justify-self: center;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+main .main-login-register .login{
+    width: 350px;
+    border: 1px solid #dddfe2;
+    margin: 0 auto;
+    margin-top:20px;
+    height: 45px;
+    border-radius: 5px;
+}
+main .main-login-register input{
+    
+    font-size: 16px;
+    width: 348px;
+    margin: 0 auto;
+    height: 100%;
+    outline-color: #4267b2;
+    padding-left: 10px;
+    border:none;
+}
+main .main-login-register .register{
+    width: 350px;
+    border: 1px solid #dddfe2;
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 45px;
+    border-radius: 5px;
+}
+main .main-login-register .boton{
+    width: 350px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    margin-top: 15px;
+    height: 45px;
+    border:none;
+}
+main .main-login-register .boton button{
+    width: 348px;
+    margin: 0 auto;
+    height: 100%;
+    background-color: #1877f2;
+    border:none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    cursor:pointer;
+}
+main .main-login-register .boton button:hover{
+    background-color: #166fe5;
+    border-color: #166fe5;
+}
+main .main-login-register .olvidaste{
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 15px;
+    display:flex;
+    justify-content: center;
+}
+main .main-login-register .olvidaste a{
+    color: #1877f2;
+    text-decoration: none;
+}
+main .main-login-register .olvidaste a:hover{
+    text-decoration: underline;
+}
+main .main-login-register .crear_cuenta{
+    width: 350px;
+    height: 75px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-top: 1px solid #dadde1;
+    display:flex;
+    justify-content: center;
+}
+main .main-login-register .crear_cuenta button{
+    width: 200px;
+    margin-top: 20px;
+    background-color: #42b72a;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+main .main-login-register .crear_cuenta button:hover{
+    background-color: #36a420;
+    border-color: #36a420;
+}
+main .main-crea_una_pagina{
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 24px;
+    text-align: center;
+}
+main .main-container a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main .main-container a:hover{
+    text-decoration: underline;
+}
+main .main-container p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
